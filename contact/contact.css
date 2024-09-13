@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-container{
+    width: 80%;
+    display: block;
+    background-color: rgb(246, 237, 255);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 2px 2px 6px 6px rgb(22, 22, 104);
+    border-radius: 10px;
+}
+.main-container h1{
+    font-size: 4rem;
+    font-weight: 100;
+
+}
+.main-container a{
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: 100;
+}
+.main-container p{
+    font-size: 15px;
+    line-height: 30px;
+    text-decoration: none;
+    font-weight: 100;
+}
+form{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 20% 40%;
+    justify-content: center;
+    gap: 10px;
+}
+label{
+font-size: large;
+font-weight: bold;
+text-align: left;
+}
+input{
+    border: none;
+    border-bottom: 2px solid rgba(51, 51, 195, 0.947);
+    outline: none;
+    font-size: large;
+    padding: 0 10px;
+height: 25px;
+}
+input:hover{
+outline: aqua;
+}
+#btn{
+    margin-top: 10px;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: blue;
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    transition: tranfrom all ease 0.3s;
+}
+#btn:hover{
+ transform: scale(1.03);
+ box-shadow:inset 2px 2px 2px 2px black;   
+}
+
+.links{
+    margin-top: 70px;
+}
+.links img{
+  width: 40px;
+  margin: 5px;
+  transition: tranfrom all ease 0.3s;
+
+}
+.links img:hover{
+    transform: scale(1.03);
+    border-radius: 50%;
+    box-shadow:2px 2px 2px 2px 
+}
+
+
+
+/* for small screen 770 */
+@media (max-width:770px) {
+    .main-container{
+        width: 80%;
+        padding: 20px;
+    }
+    .main-container h1{
+        font-size: 3rem;
+    
+    }
+    .main-container a{
+        font-size: 1.4rem;
+    }
+    .main-container p{
+        font-size: 12px;
+        line-height: 25px;
+    }
+    form{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 20% 40%;
+        gap: 10px;
+    }
+    label{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    }
+    input{
+        font-size: 14px;
+        padding: 0 6px;
+    height: 25px;
+    }
+    #btn{
+        margin-top: 10px;
+        height: 40px;
+        width: 100px;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 10px;
+        cursor: pointer;
+        transition: tranfrom all ease 0.3s;
+    }
+    #btn:hover{
+     transform: scale(1.03);
+     box-shadow:inset 2px 2px 2px 2px black;   
+    }
+    
+    .links{
+        margin-top: 70px;
+    }
+    .links img{
+      width: 30px;
+      margin: 2px;
+      transition: tranfrom all ease 0.3s;
+    
+    }
+
+    
+}
+
+
+
+/* for small screen 560 */
+@media (max-width:560px) {
+    .main-container{
+        width: 80%;
+        padding: 20px;
+    }
+    .main-container h1{
+        font-size: 2rem;
+    
+    }
+    .main-container a{
+        font-size: 9px;
+    }
+    .main-container p{
+        font-size: 10px;
+        line-height: 25px;
+    }
+    form{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 20% 40%;
+        gap: 10px;
+    }
+    label{
+    font-size: 10px;
+    font-weight: bold;
+    text-align: left;
+    }
+    input{
+        font-size: 14px;
+        padding: 0 11px;
+    height: 25px;
+    }
+    #btn{
+        margin-top: 10px;
+        height: 30px;
+        width: 80px;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 5px;
+        cursor: pointer;
+        transition: tranfrom all ease 0.3s;
+    }
+    
+    .links{
+        margin-top: 50px;
+    }
+    .links img{
+      width: 25px;
+      margin: 2px;
+      transition: tranfrom all ease 0.3s;
+    
+    }
+
+    
+}

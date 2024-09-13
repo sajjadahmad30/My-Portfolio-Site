@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(217, 194, 150, 0.326);
+    height: 100vh;
+}
+.main-container{
+    width: 90%;
+    border-radius: 10px;
+    border: 5px solid , rgb(9, 9, 9);
+    padding:5px 20px;
+    background-color: rgba(232, 225, 214, 0.89);
+    box-shadow: 2px 2px 7px 7px rgba(53, 51, 51, 0.658); 
+}
+
+.main-container h1{
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: cursive;
+    padding-bottom: 5px;
+}
+
+.inner-container{
+    background-color: rgba(255, 255, 255, 0.734);
+    margin: 10px;
+    padding:0px 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+}
+.inner-container:hover{
+    box-shadow:0 0 2px 2px rgb(60, 57, 57);
+    transform: scale(1.01);
+}
+.inner-container h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.inner-container h2:hover{
+   text-decoration: underline;
+}
+.inner-container p{
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+.inner-container a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: wheat;
+    border-radius: 4px;
+    padding:1px 4px;
+}
+
+
+
+
+
+/* small screen 1000px */
+@media (max-width:1000px) {
+ 
+    .main-container{
+        width: 80%;
+        border-radius: 10px;
+        padding:5px 20px;
+    }
+    
+    .main-container h1{
+        font-size: 2rem;
+        font-weight: bolder;
+        font-family: cursive;
+        padding-bottom: 1px;
+    }
+    
+    .inner-container{
+        margin: 7px;
+        padding:0px 7px;
+        border-radius: 10px;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-in;
+    }
+    .inner-container:hover{
+        box-shadow:0 0 2px 2px rgb(60, 57, 57);
+        transform: scale(1.01);
+    }
+    .inner-container h2{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .inner-container p{
+        font-size: 13px;
+        font-family: sans-serif;
+        font-weight: 200;
+    }
+    .inner-container a{
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: bold;
+        border-radius: 4px;
+        padding:0px 4px;
+    }
+}
+
+
+
+/* small screen 780px */
+@media (max-width:780px) {
+ 
+    .main-container{
+        width: 80%;
+        border-radius: 10px;
+        padding:2px 20px;
+    }
+    
+    .main-container h1{
+        font-size: 1.4rem;
+        font-weight: bolder;
+        padding-bottom: 0px;
+    }
+    
+    .inner-container{
+        margin: 6px;
+        padding:0px 7px;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-in;
+    }
+    .inner-container:hover{
+        box-shadow:0 0 2px 2px rgb(60, 57, 57);
+        transform: scale(1.01);
+    }
+    .inner-container h2{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .inner-container p{
+        font-size: 11px;
+        font-family: sans-serif;
+        font-weight: 200;
+    }
+    .inner-container a{
+        text-decoration: none;
+        font-size: 11px;
+        font-weight: bold;
+        border-radius: 4px;
+        padding:0px 4px;
+    }
+}
+
+
+
+/* small screen 520px */
+@media (max-width:520px) {
+ 
+    .main-container{
+        width: 80%;
+        border-radius: 10px;
+        padding:2px 20px;
+    }
+    
+    .main-container h1{
+        font-size: 13px;
+        font-weight: bolder;
+        padding-bottom: 0px;
+    }
+    
+    .inner-container{
+        margin: 6px;
+        padding:0px 7px;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-in;
+    }
+    .inner-container:hover{
+        box-shadow:0 0 2px 2px rgb(60, 57, 57);
+        transform: scale(1.01);
+    }
+    .inner-container h2{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .inner-container p{
+        font-size: 9px;
+        font-family: sans-serif;
+        font-weight: 200;
+    }
+    .inner-container a{
+        text-decoration: none;
+        font-size: 9px;
+        font-weight: bold;
+        border-radius: 4px;
+        padding:0px 4px;
+    }
+}
